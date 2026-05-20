@@ -95,7 +95,7 @@ class Visualizador:
 
         ax.set_xlim(0, max(np.max(x), self.sistema.objetivo_x) + 10)
         ax.set_ylim(0, max(np.max(y), self.sistema.objetivo_y) + 10)
-        ax.set_title("Busqueda del angulo para golpear un objetivo")
+        ax.set_title("Busqueda del angulo para golpear un Pajaro")
         ax.set_xlabel("x (m)")
         ax.set_ylabel("y (m)")
         ax.grid(True)
